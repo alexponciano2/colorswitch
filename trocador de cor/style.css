@@ -1,0 +1,37 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+.botao{
+    padding: 10px;
+    display: flex;
+    justify-content: center;  
+}
+
+.botao:hover{
+    font-size: 1.03rem;    
+}
+
+#btn1 {
+    display: block;
+    margin: auto;
+    background-color: rgb(255, 38, 38);  
+}
+
+#btn2 {
+    display: block;
+    margin: auto;
+    background-color: rgb(63, 255, 42);  
+
+}
+
+#btn3 {
+    display: block;
+    margin: auto;
+    background-color: yellow;
+}
