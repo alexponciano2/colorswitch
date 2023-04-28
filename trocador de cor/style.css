@@ -8,30 +8,18 @@ h1 {
 }
 
 .botao{
+    font-size: 1.5rem;
     padding: 10px;
     display: flex;
     justify-content: center;  
 }
 
-.botao:hover{
-    font-size: 1.03rem;    
+#btn1:hover {
+    background-color: rgb(162, 255, 128);
+    font-size: 1.6rem;
 }
-
 #btn1 {
     display: block;
     margin: auto;
-    background-color: rgb(255, 38, 38);  
-}
-
-#btn2 {
-    display: block;
-    margin: auto;
-    background-color: rgb(63, 255, 42);  
-
-}
-
-#btn3 {
-    display: block;
-    margin: auto;
-    background-color: yellow;
+    background-color: rgb(98, 206, 88);  
 }

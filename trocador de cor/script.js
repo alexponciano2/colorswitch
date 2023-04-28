@@ -1,12 +1,11 @@
-function clicar1(){
-    const DOM = document.querySelector('input.botao')
-    document.body.style.background = 'rgb(255, 38, 38)'
-}
-function clicar2(){
-    const DOM = document.querySelector('input.botao')
-    document.body.style.background = 'rgb(63, 255, 42)'
-}
-function clicar3(){
-    const DOM = document.querySelector('input.botao')
-    document.body.style.background = 'yellow'
+
+
+function clicar() {
+    let color = ['red', 'blue', 'green', 'yellow', 'orange', 'black', 'white']
+    let botao = document.querySelector('#btn1.botao')
+    
+    botao.addEventListener("click", function(){
+        document.body.style.backgroundColor = color[Math.floor(Math.random()*color.length)];
+    })
+
 }
